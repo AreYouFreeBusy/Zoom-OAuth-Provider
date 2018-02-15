@@ -38,6 +38,7 @@ namespace Owin.Security.Providers.Zoom
             Email = userJson["email"]?.Value<string>();
             GivenName = userJson["first_name"]?.Value<string>();
             Surname = userJson["last_name"]?.Value<string>();
+            PersonalMeetingId = userJson["pmi"]?.Value<string>();
         }
 
         /// <summary>
@@ -83,7 +84,7 @@ namespace Owin.Security.Providers.Zoom
         /// <summary>
         /// Gets the Zoom user ID
         /// </summary>
-        public string AccountId { get; private set; }
+        public string PersonalMeetingId { get; private set; }
 
         /// <summary>
         /// Gets the email address

@@ -66,9 +66,9 @@ namespace Zoom_OAuth_Demo
                         {
                             // do something with UserId
                         }
-                        if (!String.IsNullOrEmpty(context.AccountId)) 
+                        if (!String.IsNullOrEmpty(context.PersonalMeetingId)) 
                         {
-                            // do something with AccountId
+                            // do something with PersonalMeetingId
                         }
                         if (!String.IsNullOrEmpty(context.GivenName)) 
                         {
