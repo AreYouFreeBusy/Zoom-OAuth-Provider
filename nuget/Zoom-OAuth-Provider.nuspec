@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Owin.Security.Providers.Zoom</id>
+    <version>1.0.0</version>
+    <title>Owin.Security.Providers.Zoom</title>
+    <authors>Stefan Negritoiu (FreeBusy)</authors>
+    <owners>Stefan Negritoiu (FreeBusy)</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/AreYouFreeBusy/Zoom-OAuth-Provider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Zoom OAuth provider for OWIN to use with ASP.NET 4.5
+    </description>
+    <releaseNotes>
+1.0.0: Introducing Zoom OAuth provider for OWIN to use with ASP.NET 4.5
+    </releaseNotes>
+    <copyright>Copyright 2017 Stefan Negritoiu</copyright>
+    <tags>owin katana oauth asp.net zoom</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin.Security" version="2.1.0" />
+      <dependency id="Newtonsoft.Json" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Zoom-OAuth-Provider\bin\Release\Owin.Security.Providers.Zoom.dll" target="lib\net45" /> 
+  </files> 
+</package>
